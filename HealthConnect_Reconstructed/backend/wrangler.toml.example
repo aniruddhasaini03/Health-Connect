@@ -1,0 +1,10 @@
+name = "healthconnect-backend"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+FIREBASE_PROJECT_ID = "YOUR_FIREBASE_PROJECT_ID"
+GEMINI_MODEL = "gemini-1.5-flash"
+
+# Add the API key securely with:
+# npx wrangler secret put GEMINI_API_KEY
